@@ -170,6 +170,11 @@
     <ClInclude Include="Builder\PersonAddressBuilder.h" />
     <ClInclude Include="Builder\PersonBuilder.h" />
     <ClInclude Include="Builder\PersonJobBuilder.h" />
+    <ClInclude Include="Factory\CoffeeFactory.h" />
+    <ClInclude Include="Factory\DrinkFactory.h" />
+    <ClInclude Include="Factory\HotDrink.h" />
+    <ClInclude Include="Factory\HotDrinkFactory.h" />
+    <ClInclude Include="Factory\TeaFactory.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
