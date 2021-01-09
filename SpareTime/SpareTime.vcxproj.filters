@@ -48,6 +48,12 @@
     <ClCompile Include="Factory\Factory1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="prototype\Prototype1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="prototype\Prototype2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Builder\Person.h">
