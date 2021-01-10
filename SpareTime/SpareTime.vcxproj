@@ -153,14 +153,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="Builder\Builder1.cpp" />
-    <ClCompile Include="Builder\Builder2.cpp" />
-    <ClCompile Include="Builder\Builder3.cpp" />
-    <ClCompile Include="Builder\Facets.cpp" />
-    <ClCompile Include="Builder\Person.cpp" />
+    <ClCompile Include="Adapter\Adapter1.cpp" />
+    <ClCompile Include="Bridge\Bridge1.cpp" />
+    <ClCompile Include="Bridge\Person.cpp" />
     <ClCompile Include="Factory\Factory1.cpp" />
     <ClCompile Include="Monads.cpp" />
-    <ClCompile Include="Builder\PersonBuilder.cpp" />
+    <ClCompile Include="Bridge\PersonImpl.cpp" />
     <ClCompile Include="Playground.cpp" />
     <ClCompile Include="OCP.cpp" />
     <ClCompile Include="prototype\Prototype1.cpp" />
@@ -168,15 +166,13 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Builder\Person.h" />
-    <ClInclude Include="Builder\PersonAddressBuilder.h" />
-    <ClInclude Include="Builder\PersonBuilder.h" />
-    <ClInclude Include="Builder\PersonJobBuilder.h" />
+    <ClInclude Include="Bridge\Person.h" />
     <ClInclude Include="Factory\CoffeeFactory.h" />
     <ClInclude Include="Factory\DrinkFactory.h" />
     <ClInclude Include="Factory\HotDrink.h" />
     <ClInclude Include="Factory\HotDrinkFactory.h" />
     <ClInclude Include="Factory\TeaFactory.h" />
+    <ClInclude Include="Bridge\PersonImpl.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
