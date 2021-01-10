@@ -54,6 +54,12 @@
     <ClCompile Include="Composition\Composition3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Decorator\Decorator1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Decorator\Decorator2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Factory\HotDrink.h">
