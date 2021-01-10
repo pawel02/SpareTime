@@ -45,7 +45,13 @@
     <ClCompile Include="Bridge\Person.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Bridge\PersonImpl.cpp">
+    <ClCompile Include="Composition\Composition1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Composition\Composition2.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Composition\Composition3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

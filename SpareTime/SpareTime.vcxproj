@@ -156,9 +156,11 @@
     <ClCompile Include="Adapter\Adapter1.cpp" />
     <ClCompile Include="Bridge\Bridge1.cpp" />
     <ClCompile Include="Bridge\Person.cpp" />
+    <ClCompile Include="Composition\Composition1.cpp" />
+    <ClCompile Include="Composition\Composition2.cpp" />
+    <ClCompile Include="Composition\Composition3.cpp" />
     <ClCompile Include="Factory\Factory1.cpp" />
     <ClCompile Include="Monads.cpp" />
-    <ClCompile Include="Bridge\PersonImpl.cpp" />
     <ClCompile Include="Playground.cpp" />
     <ClCompile Include="OCP.cpp" />
     <ClCompile Include="prototype\Prototype1.cpp" />
